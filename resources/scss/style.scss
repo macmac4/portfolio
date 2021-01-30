@@ -1,5 +1,11 @@
 $base-color: #54B689;
 $white-color: #FFF;
+$font-color: #4f4f4f;
+$black-color: #171616;
+
+body {
+  color: $font-color;
+}
 
 .ui.inverted.menu, .ui.vertical.menu {
   background: transparent;
@@ -52,10 +58,11 @@ $white-color: #FFF;
       }
     }
 
-    .menu {
-      margin-top: 50px;
+    .ui.text.menu {
+      margin: 50px 0px;
       text-align: left;
-      margin-left: 10%!important;
+      margin-left: 10%;
+
       .item {
         font-size: 1.2rem;
         font-weight: 700;
@@ -74,5 +81,96 @@ $white-color: #FFF;
 
 .main-wrapper {
   margin-left: 280px;
-  background: #fff;
+  background:#fafafa;
+  padding: 60px;
+
+  .person-section {
+    .person-section--title {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    .person-section--subtitle {
+      font-size: 1.5rem;
+      font-weight: 300;
+    }
+    .person-section--description {
+      font-size: 1.2rem;
+      line-height: 1.6rem;
+      margin: 20px 0px;
+    }
+    .person-section--links {
+
+    }
+  }
+
+  .profile-image {
+    text-align: center;
+  }
+
+  .section-segment {
+    .header--section-title {
+      font-size: 2rem;
+      padding-left: 1.5rem;
+      position: relative;
+      color: $black-color;
+      margin-bottom: 30px;
+
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 5px;
+        height: 100%;
+        background: $base-color;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+
+    .main-segment--shortdescription {
+      font-size: 1.2rem;
+      line-height: 1.6rem;
+      margin: 20px 0px 50px 0px;
+    }
+
+    .grid--code {
+      .column-icon {
+        width: 20px;
+        height: 20px;
+      }
+      .column-title {
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin: 15px 0px;
+        color: $black-color;
+      }
+      .column-desc {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-bottom: 50px;
+        color: $black-color;
+      }
+    }
+
+    .ui {
+      .column--item-featured {
+        border: 1px solid #ccc;
+        border-radius: .2rem;
+        background-color: $white-color;
+        padding: 20px;
+        display: flex;
+        align-items: flex-start;
+
+        .card {
+            padding: 0px;
+            box-shadow: none;
+            margin: 0px;
+
+            .content {
+              padding: 5px;
+            }
+        }
+      }
+    }
+  }
 }
