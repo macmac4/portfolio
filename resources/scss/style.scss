@@ -108,12 +108,14 @@ body {
   }
 
   .section-segment {
+    // margin: 50px 0px;
+    
     .header--section-title {
       font-size: 2rem;
       padding-left: 1.5rem;
       position: relative;
       color: $black-color;
-      margin-bottom: 30px;
+      margin: 30px 0px;
 
       &::before {
         content: "";
@@ -160,6 +162,14 @@ body {
         padding: 20px;
         display: flex;
         align-items: flex-start;
+
+        &.image-top {
+          display: block;
+
+          .image {
+            width: 100%;
+          }
+        }
 
         .card {
             padding: 0px;
