@@ -209,6 +209,48 @@ body {
       .column-icon {
         width: 20px;
         height: 20px;
+        display: flex;
+
+        .icon {
+          margin-right: 15px;
+        }
+
+        .js {
+          color: #F1DE4F;
+        }
+        .vuejs {
+          color: #64B687;
+        }
+        .react {
+          color: #62D4FA;
+        }
+        .php {
+          color: #777BAF;
+        }
+        .npm {
+          color: #BB443E;
+        }
+        .gulp {
+          color: #C9514E;
+        }
+        .grunt {
+          color: #EFAC42;
+        }
+        .html5 {
+          color: #DE6E3C;
+        }
+        .css3 {
+          color: #53A7DC;
+        }
+        .sass {
+          color: #BF6B97;
+        }
+        .less {
+          color: #324B7C;
+        }
+        .python {
+          color: #456E9C;
+        }
       }
       .column-title {
         font-size: 1.2rem;
