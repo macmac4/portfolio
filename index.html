@@ -38,18 +38,18 @@
 
         <div class="ui divider"></div>
 
-        <div class="ui vertical text menu">
+        <div class="ui vertical text menu menu--link">
           <!-- <div class="header item">Menu</div> -->
-          <a class="item active">
+          <a class="item active" data-link="#aboutme">
             <i class="large user circle outline icon"></i> About Me
           </a>
-          <a class="item">
+          <a class="item" data-link="#whatido">
             <i class="large desktop icon"></i> What I do
           </a>
-          <a class="item">
+          <a class="item" data-link="#featuredprojects">
             <i class="large location arrow icon"></i> Featured Projects
           </a>
-          <a class="item">
+          <a class="item" data-link="#afterworkinghours">
             <i class="large coffee icon"></i> After working hours
           </a>
         </div>
@@ -71,7 +71,7 @@
       </div>
 
       <div class="pusher">
-        <div class="ui vertically divided grid">
+        <div class="ui vertically divided grid" id="aboutme">
           <div class="ui stackable two column row">
             <div class="column">
               <div class="person-section">
@@ -97,7 +97,7 @@
           </div>
         </div>
 
-        <div class="ui fluid container section-segment">
+        <div class="ui fluid container section-segment" id="whatido">
           <h2 class="ui header--section-title">What I do</h2>
 
           <div class="main-segment">
@@ -222,7 +222,7 @@
           </div>
         </div>
 
-        <div class="ui fluid container section-segment">
+        <div class="ui fluid container section-segment" id="featuredprojects">
           <h2 class="ui header--section-title">Featured Projects</h2>
 
           <div class="main-segment">
@@ -295,7 +295,7 @@
           </div>
         </div>
 
-        <div class="ui fluid container section-segment">
+        <div class="ui fluid container section-segment" id="afterworkinghours">
           <h2 class="ui header--section-title">After working hours</h2>
 
           <div class="main-segment">
