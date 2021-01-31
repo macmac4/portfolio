@@ -114,14 +114,15 @@ body {
 .main-wrapper {
   margin-left: 280px;
   background:#fafafa;
-  // padding: 60px;
   position: relative;
-  // transform: translate3d(0,0,0);
   transition: transform .5s ease;
 
   .pusher {
     padding: 60px;
-    // opacity: 0;
+    
+    @media (max-width: 590px) {
+      padding: 60px 15px;
+    }
   }
 
   @media (max-width: 1145px) {
@@ -231,6 +232,10 @@ body {
         padding: 20px;
         display: flex;
         align-items: flex-start;
+
+        @media (max-width: 500px) {
+          display: block;
+        }
 
         &.image-top {
           display: block;
