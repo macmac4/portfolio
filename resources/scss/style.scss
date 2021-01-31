@@ -299,4 +299,15 @@ body {
       }
     }
   }
+
+  .footer {
+    margin-top: 50px;
+    font-size: 1.1rem;
+    color: $font-color;
+    text-align: center;
+
+    a {
+      color: $base-color
+    }
+  }
 }
