@@ -33,3 +33,5 @@ function watch() {
 exports.scss = scss;
 exports.js = js;
 exports.watch = watch;
+
+exports.default = scss, js;
