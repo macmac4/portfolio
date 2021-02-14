@@ -54,7 +54,7 @@ body {
   }
 
   .main-header--wrapper {
-    padding: 50px 20px;
+    padding: 30px 20px;
     text-align: center;
 
     .main-segment {
@@ -91,7 +91,7 @@ body {
     }
 
     .ui.text.menu {
-      margin: 50px 0px;
+      margin: 30px 0px;
       text-align: left;
       margin-left: 10%;
 
@@ -106,6 +106,19 @@ body {
           font-weight: 700;
         }
       }
+
+      &.contact--section {
+        .header.item {
+          text-transform: none;
+          font-size: 1.2rem;
+        }
+        .item {
+          white-space: nowrap; 
+          overflow: hidden;
+          text-overflow: ellipsis;
+          font-size: 1.1rem;
+        }
+      }
     }
   }
 
@@ -118,10 +131,10 @@ body {
   transition: transform .5s ease;
 
   .pusher {
-    padding: 60px;
+    padding: 40px;
     
     @media (max-width: 590px) {
-      padding: 60px 15px;
+      padding: 40px 15px;
     }
   }
 
